@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /farcry/
+
+Disallow: /webtop/

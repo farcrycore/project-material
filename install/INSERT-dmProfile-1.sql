@@ -1,0 +1,2 @@
+INSERT INTO dmProfile (avatar,datetimelastupdated,phone,firstName,overviewHome,createdby,wddxPersonalisation,bActive,userDirectory,lastLogin,department,position,fax,emailAddress,notes,ObjectID,bReceiveEmail,ownedby,lastupdatedby,label,locale,datetimecreated,lockedBy,userName,locked,lastName) VALUES ( '','2013-11-11 15:02:55.117','','','','farcry','',0,'CLIENTUD','2013-11-11 14:50:38.157','','','','','','CDD3B33E-A463-9B75-DC0150D316830765',0,'','farcry_CLIENTUD','farcry_CLIENTUD','en_AU','2008-01-31 14:11:18.000','','farcry_CLIENTUD',0,'' );
+
