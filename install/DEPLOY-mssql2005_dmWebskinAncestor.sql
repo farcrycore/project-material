@@ -1,10 +1,10 @@
 CREATE TABLE dmWebskinAncestor(
 ancestorTemplate nvarchar(250) NOT NULL DEFAULT '' ,
-datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 12:11:32'} ,
 lockedBy nvarchar(250) NULL DEFAULT NULL ,
 lastupdatedby nvarchar(250) NOT NULL DEFAULT '' ,
 createdby nvarchar(250) NOT NULL DEFAULT '' ,
-datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 12:11:32'} ,
 webskinTemplate nvarchar(250) NULL DEFAULT NULL ,
 locked bit NOT NULL DEFAULT 0 ,
 ancestorTypename nvarchar(250) NOT NULL DEFAULT '' ,

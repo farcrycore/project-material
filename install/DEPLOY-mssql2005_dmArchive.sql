@@ -1,11 +1,11 @@
 CREATE TABLE dmArchive(
 metaWDDX nvarchar(MAX) NULL ,
-datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 12:11:32'} ,
 lockedBy nvarchar(250) NULL DEFAULT NULL ,
 objectTypename nvarchar(250) NULL DEFAULT NULL ,
 lastupdatedby nvarchar(250) NOT NULL DEFAULT '' ,
 createdby nvarchar(250) NOT NULL DEFAULT '' ,
-datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 12:11:32'} ,
 bDeleted bit NULL DEFAULT 0 ,
 event nvarchar(250) NULL DEFAULT NULL ,
 archiveID nvarchar(50) NULL DEFAULT NULL ,

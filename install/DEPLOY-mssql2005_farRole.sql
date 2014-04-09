@@ -1,11 +1,11 @@
 CREATE TABLE farRole(
-datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 12:11:32'} ,
 webskins nvarchar(MAX) NULL ,
 lockedBy nvarchar(250) NULL DEFAULT NULL ,
 lastupdatedby nvarchar(250) NOT NULL DEFAULT '' ,
 createdby nvarchar(250) NOT NULL DEFAULT '' ,
 webtopPermissions nvarchar(MAX) NULL ,
-datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 12:11:32'} ,
 locked bit NOT NULL DEFAULT 0 ,
 typePermissions nvarchar(MAX) NULL ,
 ObjectID nvarchar(50) NOT NULL DEFAULT '' ,
