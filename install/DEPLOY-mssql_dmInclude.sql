@@ -1,66 +1,400 @@
 
 			CREATE TABLE dmInclude(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, lastupdatedby 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					webskin 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, teaser ntext NULL , datetimelastupdated datetime NOT NULL , webskinTypename 
-								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, label 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					catInclude 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, status 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT 'draft'
-						, include 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, displayMethod 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, createdby 
-								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, teaserImage 
-								nvarchar(50)
-							NULL 
-							DEFAULT NULL
-						, webskin 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, datetimecreated datetime NOT NULL , lockedBy 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , catInclude 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, title 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, ObjectID 
-								nvarchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
 							DEFAULT ''
 						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					include 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								bit
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					status 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 'draft'
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					webskinTypename 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					teaser 
+					ntext
+					
+					NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					displayMethod 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					title 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					teaserImage 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
 			
 			); 
 		

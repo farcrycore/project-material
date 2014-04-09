@@ -1,27 +1,244 @@
 
 			CREATE TABLE farFilterProperty(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , lastupdatedby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , property 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , label 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					property 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , datetimelastupdated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , wddxDefinition longtext NULL , createdby 
-								varchar(250)
-							NOT NULL DEFAULT '' , filterID 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					filterID 
+					
+							
 								varchar(50)
-							NULL DEFAULT NULL , datetimecreated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , lockedBy 
-								varchar(250)
-							NULL DEFAULT NULL , locked 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
 								tinyint(1)
-							NOT NULL DEFAULT 0 , type 
-								varchar(250)
-							NULL DEFAULT NULL , ObjectID 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					wddxDefinition 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					type 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
 			
 			);
 			

@@ -1,61 +1,391 @@
 
 			CREATE TABLE dmArchive(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					metaWDDX 
+					ntext
+					
+					NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, objectTypename 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectTypename 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, objectWDDX ntext NULL , lastupdatedby 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, datetimelastupdated datetime NOT NULL , label 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, lRoles 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, archiveID 
-								nvarchar(50)
-							NULL 
-							DEFAULT NULL
-						, createdby 
-								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, datetimecreated datetime NOT NULL , bDeleted 
-								bit
-							NULL 
-							DEFAULT 0 , lockedBy 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, event 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, metaWDDX ntext NULL , username 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, ipaddress 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , ObjectID 
-								nvarchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
 							DEFAULT ''
 						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					bDeleted 
+					
+							
+								bit
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					event 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					archiveID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								bit
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lRoles 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectWDDX 
+					ntext
+					
+					NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ipaddress 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					username 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
 			
 			); 
 		

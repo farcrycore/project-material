@@ -1,35 +1,335 @@
 
 			CREATE TABLE farWorkflow(
 			
-			ownedby 
-								varchar(250)
-							NULL DEFAULT NULL , lastupdatedby 
-								varchar(250)
-							NOT NULL DEFAULT '' , description longtext NULL , datetimelastupdated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , label 
-								varchar(250)
-							NULL DEFAULT NULL , bTasksComplete 
-								tinyint(1)
-							NULL DEFAULT 0 , workflowDefID 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					referenceID 
+					
+							
 								varchar(50)
-							NULL DEFAULT NULL , createdby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					bTasksComplete 
+					
+							
+								tinyint(1)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , completionDate datetime NULL DEFAULT NULL , datetimecreated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , bWorkflowComplete 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					completionDate 
+					datetime
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					bActive 
+					
+							
 								tinyint(1)
-							NULL DEFAULT 0 , bActive 
-								tinyint(1)
-							NULL DEFAULT 1 , lockedBy 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 1
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , bWorkflowSetupComplete 
-								tinyint(1)
-							NULL DEFAULT 0 , referenceID 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					workflowDefID 
+					
+							
 								varchar(50)
-							NULL DEFAULT NULL , locked 
-								tinyint(1)
-							NOT NULL DEFAULT 0 , title 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , ObjectID 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								tinyint(1)
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					bWorkflowSetupComplete 
+					
+							
+								tinyint(1)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					bWorkflowComplete 
+					
+							
+								tinyint(1)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					title 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					description 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
 			
 			);
 			

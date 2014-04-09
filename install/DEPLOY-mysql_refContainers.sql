@@ -1,15 +1,55 @@
 
 			CREATE TABLE refContainers(
 			
-			containerid 
+			
+				
+					
+					
+					
+					
+					
+					containerid 
+					
+							
 								varchar(50)
-							NOT NULL 
-							DEFAULT ''
-						, objectid 
-								varchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+					
+						
 							DEFAULT ''
 						
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectid 
+					
+							
+								varchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+					
+						
+							DEFAULT ''
+						
+					
+					
+				
+			
 			
 			); 
 			

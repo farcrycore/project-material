@@ -1,54 +1,317 @@
 
 			CREATE TABLE farFilter(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, lastupdatedby 
-								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, profileID 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					profileID 
+					
+							
 								nvarchar(50)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, label 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					listID 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, datetimelastupdated datetime NOT NULL , lRoles 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					filterTypename 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, listID 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, filterTypename 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, createdby 
-								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, datetimecreated datetime NOT NULL , lockedBy 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , title 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, ObjectID 
-								nvarchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
 							DEFAULT ''
 						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								bit
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lRoles 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					title 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
 			
 			); 
 		

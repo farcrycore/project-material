@@ -1,60 +1,398 @@
 
 			CREATE TABLE farWorkflow(
 			
-			ownedby 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, lastupdatedby 
-								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, description ntext NULL , datetimelastupdated datetime NOT NULL , label 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, bTasksComplete 
-								bit
-							NULL 
-							DEFAULT 0 , workflowDefID 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					referenceID 
+					
+							
 								nvarchar(50)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, createdby 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					bTasksComplete 
+					
+							
+								bit
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, completionDate datetime NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, datetimecreated datetime NOT NULL , bWorkflowComplete 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					completionDate 
+					datetime
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					bActive 
+					
+							
 								bit
-							NULL 
-							DEFAULT 0 , bActive 
-								bit
-							NULL 
-							DEFAULT 1 , lockedBy 
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT 1
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, bWorkflowSetupComplete 
-								bit
-							NULL 
-							DEFAULT 0 , referenceID 
-								nvarchar(50)
-							NULL 
-							DEFAULT NULL
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , title 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, ObjectID 
-								nvarchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
 							DEFAULT ''
 						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					workflowDefID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								bit
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					bWorkflowSetupComplete 
+					
+							
+								bit
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					bWorkflowComplete 
+					
+							
+								bit
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					title 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					description 
+					ntext
+					
+					NULL
+					
+					
+				
+			
 			
 			); 
 		

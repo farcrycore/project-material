@@ -1,49 +1,481 @@
 
 			CREATE TABLE dmProfile(
 			
-			avatar 
+			
+				
+					
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , datetimelastupdated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , phone 
-								varchar(250)
-							NULL DEFAULT NULL , firstName 
-								varchar(250)
-							NULL DEFAULT NULL , overviewHome 
-								varchar(250)
-							NULL DEFAULT NULL , createdby 
-								varchar(250)
-							NOT NULL DEFAULT '' , wddxPersonalisation longtext NULL , bActive 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					notes 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastLogin 
+					datetime
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					bActive 
+					
+							
 								tinyint(1)
-							NOT NULL DEFAULT 0 , userDirectory 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , lastLogin datetime NULL DEFAULT NULL , department 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					userDirectory 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , position 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					locale 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , fax 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 'en_AU'
+				
+			
+				
+					,
+					
+					
+					
+					
+					department 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , emailAddress 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					avatar 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , notes longtext NULL , ObjectID 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' , bReceiveEmail 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					firstName 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					userName 
+					
+							
+								varchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					emailAddress 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					bReceiveEmail 
+					
+							
 								tinyint(1)
-							NOT NULL DEFAULT 1 , ownedby 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 1
+				
+			
+				
+					,
+					
+					
+					
+					
+					position 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , lastupdatedby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , label 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastName 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , locale 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					fax 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT 'en_AU' , datetimecreated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , lockedBy 
-								varchar(250)
-							NULL DEFAULT NULL , userName 
-								varchar(250)
-							NOT NULL DEFAULT '' , locked 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					wddxPersonalisation 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
 								tinyint(1)
-							NOT NULL DEFAULT 0 , lastName 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					overviewHome 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					phone 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
 			
 			);
 			

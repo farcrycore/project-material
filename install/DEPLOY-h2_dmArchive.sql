@@ -1,35 +1,333 @@
 
 			CREATE TABLE dmArchive(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					metaWDDX 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , objectTypename 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectTypename 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , objectWDDX longtext NULL , lastupdatedby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , datetimelastupdated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , label 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , lRoles 
-								varchar(250)
-							NULL DEFAULT NULL , archiveID 
-								varchar(50)
-							NULL DEFAULT NULL , createdby 
-								varchar(250)
-							NOT NULL DEFAULT '' , datetimecreated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , bDeleted 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					bDeleted 
+					
+							
 								tinyint(1)
-							NULL DEFAULT 0 , lockedBy 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					event 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , event 
-								varchar(250)
-							NULL DEFAULT NULL , metaWDDX longtext NULL , username 
-								varchar(250)
-							NULL DEFAULT NULL , ipaddress 
-								varchar(250)
-							NULL DEFAULT NULL , locked 
-								tinyint(1)
-							NOT NULL DEFAULT 0 , ObjectID 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					archiveID 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								tinyint(1)
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					lRoles 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								varchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectWDDX 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ipaddress 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					username 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
 			
 			);
 			

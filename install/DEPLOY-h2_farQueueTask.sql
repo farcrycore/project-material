@@ -1,33 +1,329 @@
 
 			CREATE TABLE farQueueTask(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , lastupdatedby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					wddxStackTrace 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , datetimelastupdated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , jobID 
-								varchar(50)
-							NULL DEFAULT NULL , taskTimestamp datetime NULL DEFAULT NULL , label 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , taskOwnedBy 
-								varchar(250)
-							NULL DEFAULT NULL , wddxDetails longtext NULL , threadID 
-								varchar(50)
-							NULL DEFAULT NULL , createdby 
-								varchar(250)
-							NOT NULL DEFAULT '' , datetimecreated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , jobType 
-								varchar(250)
-							NULL DEFAULT 'Unkown' , lockedBy 
-								varchar(250)
-							NULL DEFAULT NULL , action 
-								varchar(250)
-							NULL DEFAULT NULL , wddxStackTrace longtext NULL , locked 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
 								tinyint(1)
-							NOT NULL DEFAULT 0 , objectid 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					jobID 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' , taskStatus 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					taskOwnedBy 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					threadID 
+					
+							
+								varchar(50)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectid 
+					
+							
+								varchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					jobType 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 'Unkown'
+				
+			
+				
+					,
+					
+					
+					
+					
+					wddxDetails 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					action 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					taskTimestamp 
+					datetime
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					taskStatus 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
 			
 			);
 			

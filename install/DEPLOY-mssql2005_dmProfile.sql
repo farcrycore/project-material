@@ -1,56 +1,28 @@
-
-			CREATE TABLE dmProfile(
-					
-			avatar nvarchar(250) NULL 
-							DEFAULT NULL
-						, datetimelastupdated datetime NOT NULL 
-							DEFAULT {ts '2213-11-11 15:20:44'} , phone nvarchar(250) NULL 
-							DEFAULT NULL
-						, firstName nvarchar(250) NULL 
-							DEFAULT NULL
-						, overviewHome nvarchar(250) NULL 
-							DEFAULT NULL
-						, createdby nvarchar(250) NOT NULL 
-							DEFAULT ''
-						, wddxPersonalisation ntext NULL , bActive 
-								bit
-							NOT NULL 
-							DEFAULT 0 , userDirectory nvarchar(250) NOT NULL 
-							DEFAULT ''
-						, lastLogin datetime NULL 
-							DEFAULT NULL
-						, department nvarchar(250) NULL 
-							DEFAULT NULL
-						, position nvarchar(250) NULL 
-							DEFAULT NULL
-						, fax nvarchar(250) NULL 
-							DEFAULT NULL
-						, emailAddress nvarchar(250) NULL 
-							DEFAULT NULL
-						, notes ntext NULL , ObjectID nvarchar(50) NOT NULL 
-							DEFAULT ''
-						, bReceiveEmail 
-								bit
-							NOT NULL 
-							DEFAULT 1 , ownedby nvarchar(250) NULL 
-							DEFAULT NULL
-						, lastupdatedby nvarchar(250) NOT NULL 
-							DEFAULT ''
-						, label nvarchar(250) NULL 
-							DEFAULT NULL
-						, locale nvarchar(250) NOT NULL 
-							DEFAULT 'en_AU'
-						, datetimecreated datetime NOT NULL 
-							DEFAULT {ts '2213-11-11 15:20:44'} , lockedBy nvarchar(250) NULL 
-							DEFAULT NULL
-						, userName nvarchar(250) NOT NULL 
-							DEFAULT ''
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , lastName nvarchar(250) NULL 
-							DEFAULT NULL
-						
-			
-			); 
-			
+CREATE TABLE dmProfile(
+lockedBy nvarchar(250) NULL DEFAULT NULL ,
+notes nvarchar(MAX) NULL ,
+lastLogin datetime NULL DEFAULT NULL ,
+bActive bit NOT NULL DEFAULT 0 ,
+lastupdatedby nvarchar(250) NOT NULL DEFAULT '' ,
+userDirectory nvarchar(250) NOT NULL DEFAULT '' ,
+locale nvarchar(250) NOT NULL DEFAULT 'en_AU' ,
+department nvarchar(250) NULL DEFAULT NULL ,
+avatar nvarchar(250) NULL DEFAULT NULL ,
+ObjectID nvarchar(50) NOT NULL DEFAULT '' ,
+firstName nvarchar(250) NULL DEFAULT NULL ,
+label nvarchar(250) NULL DEFAULT NULL ,
+userName nvarchar(250) NOT NULL DEFAULT '' ,
+emailAddress nvarchar(250) NULL DEFAULT NULL ,
+datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+bReceiveEmail bit NOT NULL DEFAULT 1 ,
+position nvarchar(250) NULL DEFAULT NULL ,
+createdby nvarchar(250) NOT NULL DEFAULT '' ,
+lastName nvarchar(250) NULL DEFAULT NULL ,
+fax nvarchar(250) NULL DEFAULT NULL ,
+wddxPersonalisation nvarchar(MAX) NULL ,
+datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-09 11:18:01'} ,
+locked bit NOT NULL DEFAULT 0 ,
+overviewHome nvarchar(250) NULL DEFAULT NULL ,
+phone nvarchar(250) NULL DEFAULT NULL ,
+ownedby nvarchar(250) NULL DEFAULT NULL 
+);

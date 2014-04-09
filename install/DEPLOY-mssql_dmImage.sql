@@ -1,58 +1,340 @@
 
 			CREATE TABLE dmImage(
 			
-			catImage 
-								nvarchar(1000)
-							NULL 
-							DEFAULT NULL
-						, ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, ThumbnailImage 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					StandardImage 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, lastupdatedby 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, SourceImage 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, alt 
-								nvarchar(1000)
-							NULL 
-							DEFAULT NULL
-						, label 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, datetimelastupdated datetime NOT NULL , StandardImage 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, createdby 
-								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, datetimecreated datetime NOT NULL , lockedBy 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , title 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, ObjectID 
-								nvarchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
 							DEFAULT ''
 						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								bit
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					alt 
+					
+							
+								nvarchar(1000)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ThumbnailImage 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					SourceImage 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					title 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					catImage 
+					
+							
+								nvarchar(1000)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
 			
 			); 
 		

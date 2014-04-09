@@ -1,50 +1,324 @@
 
 			CREATE TABLE farUser(
 			
-			failedLogins ntext NULL , ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, lastupdatedby 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					userid 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, lGroups ntext NULL , label 
-								nvarchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+						
+						
 							DEFAULT NULL
-						, datetimelastupdated datetime NOT NULL , createdby 
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								nvarchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, datetimecreated datetime NOT NULL , userstatus 
-								nvarchar(250)
-							NULL 
-							DEFAULT 'active'
-						, lockedBy 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, forgotPasswordHash 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, password 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, locked 
-								bit
-							NOT NULL 
-							DEFAULT 0 , userid 
-								nvarchar(250)
-							NULL 
-							DEFAULT NULL
-						, ObjectID 
-								nvarchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
 							DEFAULT ''
 						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					userstatus 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT 'active'
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					failedLogins 
+					ntext
+					
+					NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+						
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								bit
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT 0
+						
+					
+				
+			
+				
+			
+				
+					,
+					
+					
+					
+					
+					password 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								nvarchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+						
+						
+							DEFAULT ''
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					forgotPasswordHash 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								nvarchar(250)
+							
+						
+					
+					NULL
+					
+					
+						
+						
+							DEFAULT NULL
+						
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lGroups 
+					ntext
+					
+					NULL
+					
+					
+				
+			
 			
 			); 
 		

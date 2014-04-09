@@ -1,16 +1,6 @@
-
-			CREATE TABLE farWorkflowDef_aTaskDefs(
-					
-			typename nvarchar(250) NULL 
-							DEFAULT NULL
-						, seq 
-								decimal(10,2)
-							NOT NULL 
-							DEFAULT 0 , parentid nvarchar(50) NOT NULL 
-							DEFAULT ''
-						, data nvarchar(250) NULL 
-							DEFAULT NULL
-						
-			
-			); 
-			
+CREATE TABLE farWorkflowDef_aTaskDefs(
+data nvarchar(250) NULL DEFAULT NULL ,
+typename nvarchar(250) NULL DEFAULT NULL ,
+parentid nvarchar(50) NOT NULL DEFAULT '' ,
+seq decimal(10,2) NOT NULL DEFAULT 0 
+);

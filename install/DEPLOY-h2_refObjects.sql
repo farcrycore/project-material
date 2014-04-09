@@ -1,11 +1,45 @@
 
 			CREATE TABLE refObjects(
 			
-			typename 
+			
+				
+					
+					
+					
+					
+					
+					typename 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , objectid 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					objectid 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
 			
 			);
 			

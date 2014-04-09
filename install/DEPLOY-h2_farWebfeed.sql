@@ -1,77 +1,717 @@
 
 			CREATE TABLE farWebfeed(
 			
-			subtitle 
+			
+				
+					
+					
+					
+					
+					
+					keywords 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , itunessubtitleproperty 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , catFilter longtext NULL , datetimelastupdated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , copyright 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					itunesauthor 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , itunescategories 
-								varchar(250)
-							NULL DEFAULT NULL , createdby 
-								varchar(250)
-							NOT NULL DEFAULT '' , editoremail 
-								varchar(250)
-							NULL DEFAULT NULL , bAuthor 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					bAuthor 
+					
+							
 								tinyint(1)
-							NULL DEFAULT 0 , url 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , dateproperty 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					itunescategories 
+					
+							
 								varchar(250)
-							NULL DEFAULT 'datetimecreated' , ObjectID 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					skiphours 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					url 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					itunessubtitleproperty 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					generator 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 'http://www.farcrycms.org/'
+				
+			
+				
+					,
+					
+					
+					
+					
+					copyright 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					itunesimage 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					itemtype 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
 								varchar(50)
-							NOT NULL DEFAULT '' , titleproperty 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					atomicon 
+					
+							
 								varchar(250)
-							NULL DEFAULT 'title' , ownedby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					subtitle 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , generator 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
 								varchar(250)
-							NULL DEFAULT 'http://www.farcrycms.org/' , lastupdatedby 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					description 
+					
+							
 								varchar(250)
-							NOT NULL DEFAULT '' , editor 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					dateproperty 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , contentproperty 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 'datetimecreated'
+				
+			
+				
+					,
+					
+					
+					
+					
+					keywordsproperty 
+					
+							
 								varchar(250)
-							NULL DEFAULT 'teaser' , language 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					language 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , description 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					feedimage 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , itunesdurationproperty 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					enclosurefileproperty 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , itunesimage 
-								varchar(250)
-							NULL DEFAULT NULL , label 
-								varchar(250)
-							NULL DEFAULT NULL , enclosurefileproperty 
-								varchar(250)
-							NULL DEFAULT NULL , itunesauthor 
-								varchar(250)
-							NULL DEFAULT NULL , keywords 
-								varchar(250)
-							NULL DEFAULT NULL , directory 
-								varchar(250)
-							NULL DEFAULT NULL , atomicon 
-								varchar(250)
-							NULL DEFAULT NULL , iTunesFeedId 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					iTunesFeedId 
+					
+							
 								decimal(11,0)
-							NULL , datetimecreated datetime NOT NULL DEFAULT '2213-11-11 03:20:44' , skiphours 
+							
+						
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					directory 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , lockedBy 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , feedimage 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT ''
+				
+			
+				
+					,
+					
+					
+					
+					
+					catFilter 
+					longtext
+					
+					NULL
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					contentproperty 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , locked 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 'teaser'
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					DEFAULT '2214-04-09 11:18:01'
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
 								tinyint(1)
-							NOT NULL DEFAULT 0 , skipdays 
+							
+						
+					
+					NOT NULL
+					
+					
+					DEFAULT 0
+				
+			
+				
+					,
+					
+					
+					
+					
+					skipdays 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , itemtype 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					editoremail 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , title 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					editor 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL , keywordsproperty 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					title 
+					
+							
 								varchar(250)
-							NULL DEFAULT NULL 
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					itunesdurationproperty 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT NULL
+				
+			
+				
+					,
+					
+					
+					
+					
+					titleproperty 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					DEFAULT 'title'
+				
+			
 			
 			);
 			

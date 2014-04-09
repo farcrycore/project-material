@@ -1,40 +1,261 @@
 
 			CREATE TABLE farConfig(
 			
-			ownedby 
+			
+				
+					
+					
+					
+					
+					
+					datetimelastupdated 
+					datetime
+					
+					NOT NULL
+					
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lockedBy 
+					
+							
 								varchar(250)
-							NULL 
+							
+						
+					
+					NULL
+					
+					
+					
 						DEFAULT NULL
-					, createdby 
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					lastupdatedby 
+					
+							
 								varchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, lastupdatedby 
-								varchar(250)
-							NOT NULL 
-							DEFAULT ''
-						, datetimecreated datetime NOT NULL , lockedBy 
-								varchar(250)
-							NULL 
-						DEFAULT NULL
-					, datetimelastupdated datetime NOT NULL , label 
-								varchar(250)
-							NULL 
-						DEFAULT NULL
-					, configdata longtext NULL 
-						DEFAULT NULL
-					, locked 
-								tinyint(1)
-							NOT NULL 
-						DEFAULT 0 , configkey 
-								varchar(250)
-							NULL 
-						DEFAULT NULL
-					, ObjectID 
-								varchar(50)
-							NOT NULL 
+							
+						
+					
+					NOT NULL
+					
+					
+					
+						
 							DEFAULT ''
 						
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					configdata 
+					longtext
+					
+					NULL
+					
+					
+					
+						DEFAULT NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					createdby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NOT NULL
+					
+					
+					
+						
+							DEFAULT ''
+						
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					datetimecreated 
+					datetime
+					
+					NOT NULL
+					
+					
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					locked 
+					
+							
+								tinyint(1)
+							
+						
+					
+					NOT NULL
+					
+					
+					
+						DEFAULT 0
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ObjectID 
+					
+							
+								varchar(50)
+							
+						
+					
+					NOT NULL
+					
+					
+					
+						
+							DEFAULT ''
+						
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					configkey 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					
+						DEFAULT NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					configtypename 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					
+						DEFAULT NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					label 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					
+						DEFAULT NULL
+					
+					
+				
+			
+				
+					,
+					
+					
+					
+					
+					ownedby 
+					
+							
+								varchar(250)
+							
+						
+					
+					NULL
+					
+					
+					
+						DEFAULT NULL
+					
+					
+				
+			
 			
 			); 
 			
