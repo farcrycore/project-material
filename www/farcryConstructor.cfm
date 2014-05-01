@@ -36,7 +36,7 @@ Only administrators can updateapp=1
 THE NAME OF THE FOLDER THAT CONTAINS YOUR FARCRY PROJECT
 SET THIS VALUE IF IT IS DIFFERENT FROM THE APPLICATION NAME
  --->
-<!--- <cfset THIS.projectDirectoryName = "farcry" /> --->
+<!--- <cfset THIS.projectDirectoryName = "barebones" /> --->
 
 <!--- Define the page request properties. --->
 <!--- <cfsetting requesttimeout="30" /> --->
