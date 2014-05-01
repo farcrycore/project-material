@@ -24,7 +24,7 @@
 THE VIRTUAL WEBSERVER PROJECT FOLDER
  --->
 <cfset THIS.projectURL = "" />
-<cfset THIS.webtopURL = "/webtop" />
+<cfset THIS.webtopURL = "/farcry/core/webtop" />
 
 <!--- 
 A key that can be used on updateapp url variable to update the application scope
