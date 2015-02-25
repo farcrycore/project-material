@@ -1,3 +1,3 @@
 core,https://github.com/farcrycore/core.git,master
-plugins/googleanalytics,https://github.com/farcrycore/plugin-googleanalytics.git,master
-projects/barebones,https://github.com/farcrycore/project-barebones.git,master
+plugins/material,https://github.com/farcrycore/plugin-material.git,master
+projects/material,https://github.com/farcrycore/project-material.git,master
